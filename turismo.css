@@ -1,0 +1,56 @@
+body{ margin: 20px; line-height: 1.5; max-width: 800px; margin-left: auto; margin-right: auto }
+body{ 
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body¨{
+  font-family: 'Open Sans';
+}
+header{
+  background-color: #B0AFAF;
+  text-align: center;
+  padding: 25px 0;
+}
+nav a{
+  display: inline-block;
+  text-decoration: none;
+  color: #2C2B2C;
+  margin: 0 30px;
+}
+nav a:hover{
+  background-color:#8F1410;
+  color: #fff;
+}
+.turismo-tabla{
+  border-collapse: collapse;
+  margin: 25px 0px;
+  font-size: 1rem;
+  min-width: 500px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+ .turismo-tabla thead tr {
+
+   background-color: #0E2F96;
+   color: #fff;
+
+ }
+
+ .turismo-tabla th,
+ .turismo-tabla td {
+  padding: 12px 15px;
+ }
+
+ .turismo-tabla tbody tr {
+  border-bottom: 1px solid #ddd;
+ }
+ .turismo-tabla tbody tr:nth-of-type(even){
+  background-color: #909FCC;
+ }
